@@ -17,9 +17,9 @@ h1
 p.head
 
 {
-    font-size: 35%;
     background-color:#B6C2C9;
-    text-align: left;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -36,9 +36,11 @@ h2
 p.campo
 
 {
-    background-color: #7B929D;
+    background-color:#B6C2C9;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
-
 
 
 span.colornormal
@@ -46,3 +48,32 @@ span.colornormal
 {
     color: #0072A9;
 }
+
+span.colornegrita
+
+{
+    color: #0088CC;
+    font-weight: bold;
+}
+
+h3
+
+{
+    background-color:#98AAB3;
+    color: #576B75;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    text-align: left;
+    font-style: oblique;
+}
+
+pre
+
+{
+    background-color: white;
+    text-align: right;
+    color: black;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    }
